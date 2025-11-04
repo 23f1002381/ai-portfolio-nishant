@@ -1,144 +1,126 @@
-# AI/ML & Full-Stack Developer Portfolio
+# 🚀 AI + Full-Stack Developer Portfolio — Nishant Kumar Yadav
 
-A modern, animated portfolio website built with Next.js, TypeScript, and Tailwind CSS. Inspired by BraydenTW's portfolio style, customized for an AI/ML + Full-Stack Developer.
+![GitHub last commit](https://img.shields.io/github/last-commit/23f1002381/ai-portfolio-nishant)
+![GitHub repo size](https://img.shields.io/github/repo-size/23f1002381/ai-portfolio-nishant)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=flat&logo=vercel)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-## Features
+---
 
-- ✨ **Modern Animations** - Smooth animations using Framer Motion
-- 🎨 **Beautiful UI** - Gradient backgrounds, particle effects, and modern design
-- 📱 **Fully Responsive** - Works seamlessly on all devices
-- 🚀 **Performance Optimized** - Built with Next.js 14 for optimal performance
-- 🎯 **Smooth Scrolling** - Seamless navigation between sections
-- 🌙 **Dark Theme** - Beautiful dark theme with gradient accents
+## 🎯 Overview
 
-## Sections
+Welcome to my **AI + Full-Stack Developer Portfolio**, where I showcase the intersection of intelligent automation, modern web architecture, and user-centered design.  
+Built with **Next.js, React, TypeScript, and OpenAI APIs**, this portfolio demonstrates production-ready integration of full-stack engineering and AI-driven workflows.
 
-- **Hero** - Animated landing section with particle effects
-- **About** - Professional introduction and expertise areas
-- **Skills** - Technical and soft skills with progress bars
-- **Projects** - Featured projects with live demos and GitHub links
-- **Experience** - Timeline of work experience and internships
-- **Education** - IIT B.Tech details with coursework
-- **Certifications** - Professional certifications and achievements
-- **Contact** - Contact form and social media links
+> 🧠 My focus: Building intelligent, scalable, real-time web platforms.
 
-## Getting Started
+---
 
-### Prerequisites
+## 🌐 Live Demo
 
-- Node.js 18+ installed
-- npm or yarn package manager
+👉 **[Visit Portfolio Website](https://ai-portfolio-nishant.vercel.app)**  
+> Hosted on Vercel with automatic CI/CD from GitHub.
 
-### Installation
+---
 
-1. Install dependencies:
+## 🧠 Tech Stack
+
+| Layer | Tools / Frameworks |
+|-------|--------------------|
+| **Frontend** | React.js, Next.js, TypeScript, TailwindCSS, DaisyUI |
+| **Backend** | Flask, FastAPI, Node.js, Express |
+| **Database** | PostgreSQL, MongoDB, MySQL |
+| **AI / ML** | OpenAI API, LangChain, Hugging Face, TensorFlow.js |
+| **Automation** | WebSockets, Cron Jobs, Kafka (learning), Inngest |
+| **Cloud & DevOps** | AWS, Vercel, Render, Docker, GitHub Actions |
+| **Concepts** | CI/CD, Authentication, Scalable Architectures, REST APIs |
+
+---
+
+## 💻 Featured Projects
+
+### 🧾 [Stock Alert Automation System](https://stock-alerts-nishantkumar.vercel.app)
+> Real-time stock monitoring platform with AI-powered news summarization and event tracking.
+
+- Built using **Next.js**, **Node.js**, **MongoDB**, **OpenAI API**
+- Real-time WebSocket updates, AI summaries via NewsAPI
+- Automated alerts for earnings, dividends, and stock splits
+- Email notifications & production-grade error handling  
+🔗 [GitHub Repo](https://github.com/nishantkumar123/stock-alerts)
+
+---
+
+### 🧠 [AI Content Generator Platform](https://ai-content-nishantkumar.vercel.app)
+> Multi-format AI content generation tool for blogs, social media, and emails.
+
+- Stack: **Next.js**, **TypeScript**, **OpenAI API**, **PostgreSQL**
+- Usage tracking, export to Markdown/PDF
+- Responsive UI and analytics dashboard  
+🔗 [GitHub Repo](https://github.com/nishantkumar123/ai-content-generator)
+
+---
+
+### ⚙️ [Task Automation Dashboard](https://task-automation-nishantkumar.vercel.app)
+> AI-powered task prioritization and real-time collaboration dashboard.
+
+- Stack: **Next.js**, **Express**, **MongoDB**, **OpenAI API**
+- Automated scheduling, Kanban board interface, live updates  
+🔗 [GitHub Repo](https://github.com/nishantkumar123/task-automation)
+
+---
+
+### 🔄 [Workflow Automation Builder (In Progress)](https://github.com/nobruf/shadcn-next-workflows)
+> Visual drag-and-drop automation tool inspired by Zapier/n8n.
+
+- AI-enabled workflow nodes, connectors, and triggers
+- Built with **Next.js**, **React Flow**, and **Shadcn UI**
+
+---
+
+## 🏆 Achievements
+
+- Built **3+ production-ready AI SaaS applications** integrating OpenAI APIs.
+- Implemented **real-time WebSocket pipelines** for automation systems.
+- Runner-Up 🥈 at **SEGUE Hackathon 2.0** for AI analytics dashboard.
+- Designed CI/CD workflows with **GitHub Actions** and auto-deployment on Vercel.
+- Contributed to open-source React UI libraries and AI automation frameworks.
+
+---
+
+## 🧾 Certifications
+
+- 🎓 **Generative AI with LLMs** – DeepLearning.AI  
+- ☁️ **Google Cloud Fundamentals** – Google  
+- 🧱 **Full Stack Development with Flask** – Udemy  
+- 🤖 **LangChain for Developers** – Self-learning  
+- 💻 **Frontend Libraries + JS Algorithms** – freeCodeCamp  
+
+---
+
+## 🚀 Run Locally
+
 ```bash
+# Clone the repository
+git clone https://github.com/23f1002381/ai-portfolio-nishant.git
+
+# Navigate into the project directory
+cd ai-portfolio-nishant
+
+# Install dependencies
 npm install
-```
 
-2. Run the development server:
-```bash
+# Run the development server
 npm run dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser
+---
 
-### Build for Production
+## 📄 License
 
-```bash
-npm run build
-npm start
-```
+This project is licensed under the MIT License.
 
-## Customization
-
-### Update Personal Information
-
-1. **Name**: Edit `components/sections/Hero.tsx` - replace `[Your Name]`
-2. **Email**: Update email addresses in:
-   - `components/sections/Hero.tsx`
-   - `components/sections/Contact.tsx`
-   - `components/Footer.tsx`
-3. **Social Links**: Update URLs in:
-   - `components/sections/Hero.tsx`
-   - `components/sections/Contact.tsx`
-   - `components/Footer.tsx`
-
-### Update Projects
-
-Edit `components/sections/Projects.tsx` to add/modify your projects.
-
-### Update Experience
-
-Edit `components/sections/Experience.tsx` to add your work experience.
-
-### Update Education
-
-Edit `components/sections/Education.tsx` to update your education details.
-
-### Update Skills
-
-Edit `components/sections/Skills.tsx` to customize your skills and proficiency levels.
-
-### Profile Photo
-
-Replace the placeholder avatar in `components/sections/About.tsx` with your actual profile photo.
-
-## Tech Stack
-
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Intersection Observer**: react-intersection-observer
-
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Import your repository on [Vercel](https://vercel.com)
-3. Deploy with one click
-
-### Other Platforms
-
-The site can be deployed to any platform that supports Next.js:
-- Netlify
-- AWS Amplify
-- Railway
-- DigitalOcean App Platform
-
-## Project Structure
-
-```
-├── app/
-│   ├── globals.css          # Global styles
-│   ├── layout.tsx           # Root layout
-│   └── page.tsx             # Home page
-├── components/
-│   ├── Navigation.tsx       # Navigation bar
-│   ├── Footer.tsx           # Footer component
-│   └── sections/
-│       ├── Hero.tsx         # Hero section
-│       ├── About.tsx        # About section
-│       ├── Skills.tsx       # Skills section
-│       ├── Projects.tsx     # Projects section
-│       ├── Experience.tsx   # Experience section
-│       ├── Education.tsx    # Education section
-│       ├── Certifications.tsx # Certifications section
-│       └── Contact.tsx      # Contact section
-├── package.json
-├── tailwind.config.ts
-└── tsconfig.json
-```
-
-## License
-
-MIT License - feel free to use this portfolio for your own projects!
-
-## Credits
-
-- Inspired by [BraydenTW's portfolio](https://github.com/BraydenTW/braydentw.io)
-- Built with Next.js and Tailwind CSS
 
