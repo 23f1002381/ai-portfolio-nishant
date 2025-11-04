@@ -59,7 +59,7 @@ export default function Contact() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          I'm always open to discussing new opportunities and interesting projects.
+          {`I'm always open to discussing new opportunities and interesting projects.`}
         </motion.p>
 
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
@@ -145,10 +145,10 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.6 }}
           >
             <div>
-              <h3 className="text-2xl font-semibold text-white mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-semibold text-white mb-6">{`Let's Connect`}</h3>
               <p className="text-gray-400 mb-8 leading-relaxed">
-                Whether you have a project in mind, want to collaborate, or just want to say hello,
-                I'd love to hear from you. Feel free to reach out through any of the channels below.
+                {`Whether you have a project in mind, want to collaborate, or just want to say hello,`}
+                {` I'd love to hear from you. Feel free to reach out through any of the channels below.`}
               </p>
             </div>
 
@@ -193,7 +193,7 @@ export default function Contact() {
 
             <div>
               <h4 className="text-lg font-semibold text-white mb-4">Social Links</h4>
-              <p className="text-gray-400 mb-4">Let’s collaborate on intelligent systems or AI startup projects.</p>
+              <p className="text-gray-400 mb-4">{`Let's collaborate on intelligent systems or AI startup projects.`}</p>
               <div className="flex gap-4">
                 {[
                   { icon: Github, href: "https://github.com/nishantkumar123", label: "GitHub" },
