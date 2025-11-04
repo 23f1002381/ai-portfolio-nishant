@@ -97,7 +97,7 @@ export default function Hero() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            Hi, I’m Nishant 👋
+            {`Hi, I'm Nishant 👋`}
           </motion.h1>
 
           <motion.p

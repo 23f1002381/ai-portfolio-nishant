@@ -51,13 +51,13 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <p className="text-base sm:text-lg text-gray-300 mb-6 leading-relaxed">
-              I’m <span className="font-semibold text-white">Nishant Kumar Yadav</span>, a full-stack developer specialized in
+              I&apos;m <span className="font-semibold text-white">Nishant Kumar Yadav</span>, a full-stack developer specialized in
               <span className="font-semibold text-white"> AI-integrated web applications</span> that combine real-time automation,
               intelligent dashboards, and scalable backend systems.
             </p>
             <p className="text-base sm:text-lg text-gray-300 mb-6 leading-relaxed">
               With expertise in <span className="text-white">Next.js, Flask, Node.js, and OpenAI APIs</span>, I build products that merge
-              AI-driven insights, live data processing, and clean frontend experiences. I’ve shipped
+              AI-driven insights, live data processing, and clean frontend experiences. I&apos;ve shipped
               multiple production-ready AI SaaS platforms across Vercel, Render, and AWS.
             </p>
             <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
